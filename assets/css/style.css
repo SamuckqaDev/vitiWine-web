@@ -1,0 +1,221 @@
+#root {
+  z-index: 1;
+  width: 100%;
+  font-family: "Roboto slab", sans-serif;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  background: var(--roxo);
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  opacity: 0.9;
+}
+
+.logo {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pipe {
+  margin: 8px;
+  width: 4px;
+  height: 70px;
+  background: #fff;
+}
+
+.title h3 {
+  font-size: 28px;
+  color: #fff;
+  letter-spacing: 4px;
+  font-weight: 600;
+}
+
+.title p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.logo img {
+  height: 60px;
+  align-items: center;
+}
+
+header ul {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+header ul li {
+  margin: 20px;
+}
+
+header ul li > a:hover {
+  border-bottom: 5px solid var(--roxo-dark);
+  transition: 0.4s;
+}
+
+header ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.login {
+  margin: 60px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.login > a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  width: 150px;
+  background: var(--roxo-light);
+  font-size: 18px;
+}
+
+.login > a:hover {
+  background: #fff;
+  color: var(--roxo-light);
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  transition: 0.4s;
+}
+
+.home {
+  background-image: url("../img/videira.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+.welcome{
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+}
+
+.welcomeBox {
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+  margin-top: -110px;
+  border-radius: 10px;
+  background: var(--roxo);
+  height: 240px;
+  width: 480px;
+  color: #fff;
+  font-size: 60px;
+  font-style: italic;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.text {
+  font-size: 18px;
+  text-align: center;
+}
+
+.text h1 {
+  font-size: 48px;
+  margin: 10px auto;
+}
+
+.text p {
+  margin: 20px;
+  font-style: italic;
+}
+
+.about{
+  margin: 0 auto;
+  display: block; 
+  text-align: center;
+  width: 100%;
+}
+
+.about h1{
+  font-size: 40px;
+  margin: auto;
+}
+
+.about>p{
+  font-size: 20px;
+  margin: 20px auto;
+  width: 60%;
+  margin-bottom: 40px;
+}
+
+.about-more{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 50vh;
+}
+
+.about-more img{
+  height: 250px; 
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.about-more p{
+  margin: 10px auto;
+}
+
+.mission{
+  font-size: 20px;
+  width: 30%;
+  height: 250px;
+  border-top: 4px solid var(--roxo);
+}
+
+.mission h1{
+  font-size: 30px;
+}
+
+.line{
+  height: 250px;
+  width: 4px;
+  background: var(--roxo);
+}
+.value{
+  font-size: 20px;
+  width: 30%;
+  height: 250px;
+  border-bottom: 4px solid var(--roxo);
+}
+
+.value h1{
+  font-size: 30px;
+}
+
+.service{
+  padding: 30px 0  0 0;
+  height: 80vh;
+  width: 100%;
+  background: var(--roxo);
+  color: #fff;
+}
+
+
+

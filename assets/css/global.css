@@ -1,0 +1,41 @@
+:root {
+  --background: #e5e5e5;
+  --roxo: #b057a6;
+  --roxo-light: #d88bd8;
+  --roxo-dark: #821f7b;
+  --texto-titulo: #363f5f;
+  --text-body: #969cb3;
+}
+*{
+  font-family:'Roboto slab', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-family:'Roboto slab', sans-serif;
+}
+
+body {
+  font-family:'Roboto slab', sans-serif;
+  background: var(--background);
+  -webkit-font-smooting: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+}
+
+[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

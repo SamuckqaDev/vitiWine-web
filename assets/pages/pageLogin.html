@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="../js/server.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VitiWine - Área do cliente</title>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div class="container"></div>
+      <div class="loginBox">
+        <div class="content">
+          <div class="input">
+            <div class="logo">
+              <img src="../img/logo.png" alt="" />
+              <h2>Área do cliente</h2>
+            </div>
+            <input
+              type="text"
+              name="user"
+              id="ipt_user"
+              placeholder="Usuário ou CNPJ"
+            />
+            <input
+              type="password"
+              name="Senha"
+              id="ipt_password"
+              placeholder="Senha"
+            />
+            <div class="login-content">
+              <button onclick="makeValidate() ">
+                <img src="../img/door.svg" alt="" />
+                Entrar
+              </button>
+              <a href="resetPassword.html">Esqueceu sua senha ?</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
